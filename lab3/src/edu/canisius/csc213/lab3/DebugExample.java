@@ -23,7 +23,7 @@ public class DebugExample {
             // 2) Call our SysDebugger to gather system info
             SysDebugger.logRunningProcesses();
 
-	    // 3)Log the time of the crash
+	    SysDebugger.logCurrentDateTime();
 	    
         }
 
